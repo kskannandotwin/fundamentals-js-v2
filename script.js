@@ -1,18 +1,19 @@
-console.log("Jonas");
-console.log(23);
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
 
-let firstName = "Matilda";
+// console.log(typeof true);
+console.log(typeof javascriptIsFun);
+// console.log(typeof 23);
+// console.log(typeof 'Jonas');
 
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
+javascriptIsFun = "YES!";
+console.log(typeof javascriptIsFun);
 
+let year;
+console.log(year);
+console.log(typeof year);
 
-// assignment
-let country, continent, population;
+year = 1991;
+console.log(typeof year);
 
-country = 'India';
-continent = 'Asia';
-population = '100 Crores';
-
-console.log(country, continent, population);
+console.log(typeof null);
